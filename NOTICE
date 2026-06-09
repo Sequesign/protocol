@@ -1,0 +1,44 @@
+Sequesign Protocol Specification
+Copyright (c) 2026 Sequesign, Inc.
+
+This specification is licensed under the Creative Commons Attribution 4.0
+International License (CC BY 4.0). See LICENSE for the full text.
+
+Patent commitment
+
+Sequesign, Inc. has filed a provisional patent application covering aspects
+of the Sequesign protocol described in this specification. Sequesign, Inc.
+commits not to assert these patents against any party implementing the
+Sequesign protocol in good faith from this specification.
+
+This commitment applies to any patents that issue from the current
+provisional and any continuations or divisionals derived from it. It
+covers implementation, use, and distribution of the protocol as
+specified in this repository.
+
+This commitment does not extend to:
+
+- Implementations that materially deviate from the specification in ways
+  that would not interoperate with conforming implementations.
+- Use of the Sequesign trademark or brand identity. "Sequesign" is a
+  trademark of Sequesign, Inc.; this commitment does not grant trademark
+  rights.
+- Patent claims unrelated to the protocol itself (e.g., business methods,
+  unrelated cryptographic constructions).
+
+Trademark
+
+"Sequesign" is a trademark of Sequesign, Inc. The trademark is reserved
+and is not licensed under CC BY 4.0 or by this commitment. Implementers
+may describe their work as "implementing the Sequesign protocol" or
+"compatible with the Sequesign protocol" in factual reference, but should
+not use "Sequesign" as part of their product name.
+
+Reference implementation
+
+The reference implementation of this protocol is operated by Sequesign,
+Inc. and is licensed separately from this specification. The SDK will be
+published as @sequesign/sdk on npm.
+
+Questions about this notice or the patent commitment can be directed to
+legal@sequesign.com.
