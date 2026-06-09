@@ -10,18 +10,18 @@ A Sequesign receipt is a tamper-evident record of what an agent did, what it had
 
 This is the protocol specification, not an implementation. It contains:
 
-- **spec/** ? the protocol specification itself
-- **diagrams/** ? architecture, sequence, and lifecycle diagrams
-- **examples/** ? worked examples that build from minimal receipts to fully attested ones
-- **test-vectors/** ? deterministic test vectors that conforming implementations must reproduce
-- **schemas/** ? JSON Schema documents for envelope shapes
-- **docs/** ? supporting documents including the publication plan
+- **spec/**: the protocol specification itself
+- **diagrams/**: architecture, sequence, and lifecycle diagrams
+- **examples/**: worked examples that build from minimal receipts to fully attested ones
+- **test-vectors/**: deterministic test vectors that conforming implementations must reproduce
+- **schemas/**: JSON Schema documents for envelope shapes
+- **docs/**: supporting documents including the publication plan
 
 The reference implementation is operated by Sequesign, Inc. The SDK will be published as `@sequesign/sdk` on npm. Other implementations are encouraged; the test vectors are the contract.
 
 ## What problem does this solve
 
-When an AI agent acts on someone else's behalf, the people who depend on that work ? the principal, an auditor, an insurer, a counterparty, a regulator ? need to know what the agent actually did and that the record has not been altered after the fact.
+When an AI agent acts on someone else's behalf, the people who depend on that work (the principal, an auditor, an insurer, a counterparty, a regulator) need to know what the agent actually did and that the record has not been altered after the fact.
 
 Existing approaches address parts of this:
 
@@ -55,9 +55,9 @@ The reference implementation is operated by Sequesign, Inc. The SDK is preparing
 For implementers and reviewers:
 
 1. The spec itself (forthcoming in this repo; the current canonical text lives in the reference implementation repository under `docs/protocol-spec.md`).
-2. The worked examples ? to see what a real receipt looks like at each verification level.
-3. The test vectors ? to validate your implementation against deterministic byte-level expectations.
-4. The JSON Schemas ? for envelope shape validation.
+2. The worked examples: to see what a real receipt looks like at each verification level.
+3. The test vectors: to validate your implementation against deterministic byte-level expectations.
+4. The JSON Schemas: for envelope shape validation.
 
 For decision-makers evaluating the protocol:
 

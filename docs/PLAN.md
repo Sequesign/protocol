@@ -6,9 +6,9 @@ The repository is being built incrementally. Each PR below is scoped to land as 
 
 ## Status legend
 
-- `[planned]` ? scoped but not yet started
-- `[in progress]` ? branch open, work underway
-- `[shipped]` ? merged
+- `[planned]`: scoped but not yet started
+- `[in progress]`: branch open, work underway
+- `[shipped]`: merged
 
 ## Dependencies
 
